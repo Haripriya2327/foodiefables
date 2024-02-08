@@ -27,3 +27,17 @@ body{
   width: 50px;
   height: 50px;
 }
+.create-recipe{
+  margin: 10px;
+ color: white;
+  background-color: rgb(70, 117, 245);
+  padding: 10px;
+}
+.recipe-form{
+  margin: 5vw 5vh;
+  padding: 10vw 10vh;
+}
+.input{
+  margin: 10px 5px;
+  padding: 10px;
+}

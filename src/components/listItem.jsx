@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
             </div>
 
             <button className="deleteBtn" onClick={() => {props.func(props.recipe.id)}}> Delete </button>
-            <Link to={`/itemDetails/${props.recipe.id}`} className="recipeBtn" > Recipe </Link>
+            <Link to={`/itemDetails/${props.recipe.id}`}  > <button className="recipeBtn"> Recipe </button> </Link>
          </div>
       );
 
