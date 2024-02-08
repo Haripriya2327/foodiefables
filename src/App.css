@@ -1,0 +1,29 @@
+body{
+  height: 100vh;
+}
+.footer{
+  /* position: absolute;
+  bottom: 0; */
+}
+.recipe-list{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.recipe-card {
+  min-width: 25%;
+  margin: 30px;
+  border: 1px solid black;
+  
+}
+
+.recipe-details {
+  border: 1px solid black;
+}
+
+.recipe-image{
+  width: 50px;
+  height: 50px;
+}
