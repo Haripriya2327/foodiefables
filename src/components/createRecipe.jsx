@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import { v4 as uuid4} from 'uuid';
 
 function CreateRecipe(props) {
-    const recipes= props.recipeList;
+    const recipes = props.recipeList;
     const [name, setName] = useState("");
     const [calories, setCalories] = useState(0);
     const [servings, setServings] = useState(0);
@@ -9,24 +10,31 @@ function CreateRecipe(props) {
     const [recipe, setRecipe] = useState("");
 
     const handleSubmit = (e) => {
-            e.preventDefault();
+        e.preventDefault();
 
-            const newRecipeObj ={
-                id: "",
-                name:name,
-                calories: calories,
-                image: "https://i.imgur.com/DupGBz5.jpg",
-                servings: servings
-            }
-            //add new recipe 
-          props.addRecipe(newRecipeObj);
-          props.toggleCreateRecipe();
-          //clear input fields
-          setName("");
-          setCalories(0);
-          setServings(0);
-          setImage("https://dummyimage.com/182x268/ffffff/000000");
-          setRecipe("");
+        function generateId() {
+            return  Math.floor(Math.random() * 1000)
+        }
+
+        // const uniqueId = uuid4()
+    
+        const newRecipeObj = {
+            id: generateId(),
+            name: name,
+            calories: calories,
+            image: "https://i.imgur.com/DupGBz5.jpg",
+            servings: servings
+        }
+        console.log(newRecipeObj);
+        //add new recipe 
+        props.addRecipe(newRecipeObj);
+        props.toggleCreateRecipe();
+        //clear input fields
+        setName("");
+        setCalories(0);
+        setServings(0);
+        setImage("https://dummyimage.com/182x268/ffffff/000000");
+        setRecipe("");
 
 
     }

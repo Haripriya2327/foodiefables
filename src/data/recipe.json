@@ -4,118 +4,221 @@
     "name": "Pizza",
     "calories": 400,
     "image": "https://i.imgur.com/eTmWoAN.png",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Position rack in center of oven. Place baking sheet on rack. Preheat oven to 400\u00b0F. for 30 minutes.",
+      "Meanwhile, puree garbanzo beans, 2 ounces cheese, garlic, 1 tablespoon olive oil and cumin in processor until smooth. Season with cayenne pepper and salt and pepper to taste. Transfer puree to small bowl. (Can be prepared 1 day ahead. Cover and refrigerate.)",
+      "Heat 1 tablespoon olive oil in heavy medium skillet over medium heat. Add lamb and saut\u00e9 until cooked through and brown, breaking up with fork, about 5 minutes. Drain all fat from skillet. Season lamb with allspice, oregano and salt and pepper.",
+      "Brush bottom side of 1 pita round with olive oil. Place on work surface, oil side down. Blend 1/4 cup bean puree with 1/4 (about 1/2 cup scant) of lamb mixture. Spread on pita. Sprinkle 1 ounce (about 1/4 cup) cheese over. Sprinkle 1/4 of chopped red pepper over. Repeat with remaining pita rounds. Using spatula, transfer pizzas to hot baking sheet.",
+      "Bake until cheese melts and crust is crispy, about 12 minutes. Sprinkle each pizza with 1 1/2 tablespoons mint."
+    ]
   },
   {
     "id": "37e0b31d-63f4-4d42-9f4b-e9a0fc464d60",
     "name": "Salad",
     "calories": 150,
     "image": "https://i.imgur.com/DupGBz5.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Prepare mixed greens, cherry tomatoes, cucumber, red onion, and bell pepper",
+      "toss together in a bowl with optional additions, drizzle with dressing, and serve."
+    ]
   },
   {
     "id": "b5eb5b5f-41b8-4f1f-8844-7a1a56a17df7",
     "name": "Sweet Potato",
     "calories": 120,
     "image": "https://i.imgur.com/hGraGyR.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Toss sweet potato cubes with olive oil, salt, pepper, and optional seasonings like garlic",
+      "powder or rosemary, ensuring they're evenly coated, then spread them out on a baking",
+      "sheet lined with parchment paper or foil, and roast in a preheated oven at 425°F",
+      "(220°C) for 25-30 minutes, flipping halfway through, until they're tender on the inside",
+      "and golden brown and caramelized on the outside, before serving as a delicious and",
+      "nutritious side dish or snack."
+    ]
   },
   {
     "id": "6c0f6f33-8c50-403d-9d1c-6ac9d8b77f29",
     "name": "Gnocchi",
     "calories": 500,
     "image": "https://i.imgur.com/93ekwW0.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Preheat oven to 350\u00b0 F. Finely grind flour, pecans, salt, pepper, thyme, and nutmeg in processor. Transfer flour mixture to shallow bowl. Heat 3 tablespoons oil in each of 2 heavy large ovenproof skillets over high heat. Dip chicken into beaten egg, then into flour mixture, coating completely. Add 3 pieces of chicken to each skillet and cook until golden, about 5 minutes per side. Transfer skillets to oven; bake until chicken is cooked through, about 10 minutes.",
+      "Meanwhile, melt butter in heavy medium skillet over medium-high heat. Add shallots and saut\u00e9 2 minutes. Add brandy and bring to boil. Add Chicken Stock and boil until mixture is reduced to 1 cup, about 8 minutes. Season sauce with salt and pepper. Mix in parsley.",
+      "Place chicken on work surface. Cut diagonally into 1/2-inch-wide slices. Arrange on plates. Pour sauce around chicken. Serve with Parsnip Gnocchi."
+  ]
   },
   {
-    "id": "f4b4d2bc-ff12-4f3f-b3b3-19d2f1682401",    
+    "id": "f4b4d2bc-ff12-4f3f-b3b3-19d2f1682401",
     "name": "Pot Roast",
     "calories": 350,
     "image": "https://i.imgur.com/WCzJDWz.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Season a chuck roast with salt, pepper, and any desired herbs, then sear it on all sides in a hot",
+      "skillet with oil, transfer it to a slow cooker or roasting pan, surround it with vegetables like carrots,",
+      "potatoes, and onions, add beef broth or red wine, cover, and cook on low heat for 8 hours until the",
+      "meat is tender and falls apart, then serve with the vegetables and juices for a comforting and hearty meal"
+    ]
   },
   {
-    "id": "bf89c1db-5c5b-4262-9d1e-8a68f88c61d5",    
+    "id": "bf89c1db-5c5b-4262-9d1e-8a68f88c61d5",
     "name": "Lasagna",
     "calories": 750,
     "image": "https://i.imgur.com/ClxOafl.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Heat oil in large nonstick skillet over medium heat. Add onion and garlic; saut\u00e9 3 minutes. Add tomatoes with any juices; simmer until slightly thickened, about 10 minutes. Stir in 1/3 cup basil. Season with salt and pepper.",
+      "Stir ricotta cheese in small saucepan over medium-low heat until just heated through. Add mozzarella cheese; stir just until melted, about 1 minute. Season to taste with pepper.",
+      "Spoon 1/4 cup tomato sauce into bottom of each of 4 shallow bowls. Place 2 hot lasagna noodle halves side by side atop sauce in each bowl. Top with 1/4 of cheese mixture, then with 2 more noodle halves. Divide remaining sauce among bowls. Sprinkle with Parmesan and remaining 2 tablespoons basil; serve."
+  ]
   },
   {
     "id": "bca9beec-43d3-48b1-9b57-793a8a8c3520",
     "name": "Hamburger",
     "calories": 400,
     "image": "https://i.imgur.com/LoG39wK.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Prepare a charcoal or gas grill for direct grilling over medium-high heat.",
+      "In a large bowl, mix together the beef, yellow onion, garlic, salt, pepper and Worcestershire sauce. Form the mixture into 4 patties, each 3/4 inch thick.",
+      "Grill the hamburgers directly over medium-high heat, turning once, 3 to 5 minutes per side. Check for doneness by cutting into a hamburger near the center or testing with an instant-read thermometer. No pink should show on the inside, and the internal temperature should register at least 160\u00b0F on an instant-read thermometer. If making cheeseburgers, place a slice of cheese on top of each hamburger during the last 3 minutes of cooking.",
+      "During the last 2 to 3 minutes of cooking, toast the hamburger buns, cut side down, on the grill. Serve the hamburgers on the buns with tomato, white onion, lettuce, dill pickle and condiments. Serves 4."
+  ]
   },
   {
     "id": "b777a69a-7f1c-41e8-8a4c-1d0e9e4cace8",
     "name": "Pad Thai",
     "calories": 475,
     "image": "https://i.imgur.com/5ktcSzF.jpg",
-    "servings": 1
+    "servings": 1,
+   "directions":["Mix Sauce in small bowl",
+   "Heat 2 tbsp oil in a large non stick pan (or well seasoned skillet) over high heat. Add garlic and onion, cook for 30 seconds.",
+   "Add chicken and cook for 1 1/2 minutes until mostly cooked through",
+   "Push to one side of the pan, pour egg in on the other side. Scramble using the wooden spoon (add touch of extra oil if pan is too dry), then mix into chicken",
+   "Add bean sprouts, tofu, noodles then Sauce",
+   "Toss gently for about 1 1/2 minutes until Sauce is absorbed by the noodles.",
+   "Add garlic chives and half the peanuts. Toss through quickly then remove from heat."]
   },
   {
-    "id": "d087343e-9a92-48c7-8b27-43e37491b6f5",   
+    "id": "d087343e-9a92-48c7-8b27-43e37491b6f5",
     "name": "Almonds",
     "calories": 75,
     "image": "https://i.imgur.com/JRp4Ksx.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Preheat oven to 400\u00b0F. Stir all ingredients in small baking pan to coat almonds. Arrange in single layer. Bake until coating is crisp and almonds are toasted, stirring occasionally, about 12 minutes. Cool."
+  ]
   },
   {
-    "id": "e1f87a2e-60b3-4a3f-bb48-20a396a9a94f",    
+    "id": "e1f87a2e-60b3-4a3f-bb48-20a396a9a94f",
     "name": "Sarma",
     "calories": 200,
     "image": "https://i.imgur.com/yOlf4Fj.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Remove the leaves from the head of cabbage.",
+      "Mix beef, pork, ham, uncooked rice, onion, egg, salt, pepper, and garlic powder together in a bowl until well combined. Form mixture into oblong balls, using 1/2 cup of the mixture at a time. Wrap a cabbage leaf around each ball.",
+      "Spread sauerkraut in the bottom of a large pot. Layer cabbage rolls on top, placing them seam-side down. Pour tomato juice over rolls, then add enough water to cover and bring to a boil. Reduce the heat to low and simmer for about 3 hours, adding more water as necessary."
+    ]
   },
   {
-    "id": "0ce7e4d4-1c8a-4e9f-98df-1ecb1e7b8a0b",    
+    "id": "0ce7e4d4-1c8a-4e9f-98df-1ecb1e7b8a0b",
     "name": "Bacon",
     "calories": 175,
     "image": "https://i.imgur.com/7GlqDsG.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Make the rub: Combine the salts, brown sugar, bay leaves, and pepper in a bowl and transfer to a large plate or a baking dish. Dredge the lamb breast in the rub and massage it into the surface of the lamb. (You'll probably have some rub left over.) Shake off any excess rub and let the meat sit, covered, in the refrigerator for 5 days, turning the lamb over once a day.",
+      "Rinse the lamb breast thoroughly, pat it dry with paper towels, and allow it to sit uncovered in the refrigerator overnight.",
+      "Cook the lamb bacon: Soak the wood chips in water for 30 minutes, then drain and them pat dry. Prepare your smoker. When the temperature inside the smoker has reached 200\u00b0F and the wood chips are smoking steadily, add the lamb, and let smoke. Maintain the temperature at 200\u00b0F at least until a thermometer inserted into the center of the meat reads 160\u00b0F. This will take about 2 hours, but we recommend smoking for 3, as longer cooking enhances the quality of the bacon. Allow the bacon to cool completely in the fridge and store, wrapped, for up to 1 month.",
+      "Tip: The size of lamb breasts can vary quite a bit, so be sure to buy yours deboned or boneless. A bone-in breast will lose 30 to 35 percent of its weight upon deboning."
+    ]
   },
   {
     "id": "bbfd30fd-cd75-4e3b-8fc8-3d3fd62a3c39",
     "name": "Hot Dog",
     "calories": 275,
     "image": "https://i.imgur.com/QqVHdRu.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Heat oven to 220C/200C fan/gas 7. Spread the sausages in a roasting tin and cook for 20-25 mins, turning, until golden and cooked through",
+      "Meanwhile, fry the onions in a splash of oil over a high heat until almost softened and browning. Stir in the sweet chilli sauce and tomato purée with some seasoning, and cook for 1 min more",
+      "Split the hot dog buns, add a spoonful of the sweet chilli onions, top with a sausage, then a spoonful more onions."
+    ]
   },
   {
     "id": "1c6d5b5f-4e72-4136-8c6c-9cf3e3d16a65",
     "name": "Chocolate Cake",
     "calories": 490,
     "image": "https://i.imgur.com/yrgzA9x.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Preheat oven to 325F. Lightly butter and flour pan. Heat chocolate, sugar, and 1 cup butter in a heatproof bowl set over a saucepan of simmering water (bowl should not touch water), stirring, until chocolate is almost completely melted, about 3 minutes; remove from heat and continue to stir until chocolate is completely melted. Let cool completely.",
+      "Using an electric mixer on medium speed, add eggs to chocolate mixture 1 at a time, beating to blend after each addition. Beat until mixture has a mousse-like consistency. Reduce speed to low and add salt and 1/3 cup flour; mix until smooth. Scrape batter into prepared pan; smooth top.",
+      "Bake cake until top is firm and edges are slightly darkened, 55\u201365 minutes (rely on visual cues; a tester inserted into cake's center will come out clean before cake is truly done). Transfer pan to a wire rack and let cake cool completely in pan before turning out.",
+      "Heat chocolate, butter, and salt in a heatproof bowl set over a saucepan of simmering water (bowl should not touch water), stirring, until chocolate and butter are melted, about 5 minutes. Whisk in powdered sugar.",
+      "Meanwhile, bring wine just to a boil in a small saucepan.",
+      "Remove chocolate mixture from heat and whisk in wine; let cool until slightly thickened and a rubber spatula leaves a trail in mixture when stirring, 8\u201310 minutes.",
+      "Set cake on a wire rack set over a rimmed baking sheet. Pour glaze over cake and spread it across the top and over the edges with an offset spatula. Let cake stand at room temperature until glaze is set, 2\u20133 hours.",
+      "DO AHEAD: Cake can be made and glazed 2 days ahead. Chill. Bring to room temperature before serving."
+    ]
   },
   {
     "id": "07d9616d-7a63-457c-b8a7-58f6a70a67e3",
     "name": "Wheat Bread",
     "calories": 175,
     "image": "https://i.imgur.com/TsWzMfM.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "In a small bowl stir together 1 3/4 cups warm water and yeast and let stand until foamy, about 5 minutes. In a measuring cup whisk together remaining 1/4 cup warm water and molasses. In a large bowl stir together 2 cups flour, sugar, salt, and oil and add molasses and yeast mixtures, stirring until combined well. Stir in enough of remaining 3 to 4 cups flour, 1/2 cup at a time, for mixture to form a soft dough and turn dough out onto a lightly floured surface. Knead dough 8 minutes, or until smooth and elastic, and shape into a ball.",
+      "Transfer dough to a lightly oiled bowl, turning to coat, and let rise, covered with plastic wrap, in a warm place until doubled in bulk, about",
+      "1 hour. Punch down dough and let rise, covered, 45 minutes more.",
+      "Preheat oven to 400F. and grease 2 loaf pans, 8 1/2 by 4 1/2 by",
+      "2 inches.",
+      "Divide dough in half. Lightly knead each piece of dough and form into ovals. Transfer loaves to pans and let rise, covered with kitchen towels,",
+      "45 minutes. Brush tops of loaves lightly with egg wash and sprinkle with oats. Bake loaves in middle of oven 10 minutes. Reduce oven temperature to 350\u00b0F. and bake loaves 20 to 25 minutes more, or until golden brown. Turn loaves out onto a rack to cool."
+    ]
   },
   {
     "id": "d7a8f0c1-0a34-4e3b-a2d3-3c3e3f11eb19",
     "name": "Orange",
     "calories": 85,
     "image": "https://i.imgur.com/abKGOcv.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Bring zest, sugar, and 1/2 cup water to a boil in a small saucepan, stirring until sugar is dissolved. Let cool; cover and chill at least 2 hours. Strain syrup into a small jar or bowl.",
+      "For each cocktail, muddle 1 piece of orange, a small handful mint sprigs, 1 ounce orange syrup, and a few dashes orange bitters in a double Old Fashioned glass or a julep cup. Add 2 ounces bourbon and stir to combine. Fill glass with crushed ice and garnish with more mint."
+    ]
   },
   {
     "id": "a8d111c4-50ef-4c61-8b16-17e84a86b2f4",
     "name": "Banana",
     "calories": 175,
     "image": "https://i.imgur.com/BMdJhu5.jpg",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Separate the yolks from the whites of 3 of the eggs; set aside the whites. Add the remaining whole egg to the yolks.",
+      "In a saucepan, whisk together 1/2 cup sugar, the flour and 1/2 teaspoon salt. Stir in the whole egg and 3 yolks, and then stir in the milk. Cook uncovered, stirring often, until the mixture thickens, about 10 minutes. Remove from the heat and stir in the vanilla.",
+      "Preheat the oven to 425 degrees F.",
+      "Spread a thin layer of the pudding in a 1 1/2-quart casserole dish. Arrange a layer of vanilla wafers on top of the pudding. Thinly slice the bananas crosswise, about 1/8 inch thick, and arrange a layer of banana slices over the wafers. Spread one-third of the remaining pudding over the bananas and continue layering wafers, bananas and pudding, ending with pudding.",
+      "To make the meringue, beat the reserved egg whites with a pinch of salt until they are stiff. Gradually beat in the remaining 1/4 cup sugar and continue beating until the whites will not slide out of the mixing bowl when it is tilted.",
+      "Spread the meringue over the pudding with a spatula, making a few decorative peaks on top, and bake until the meringue is lightly browned, 5 minutes."
+    ]
   },
   {
     "id": "62d8a0bc-1b77-4389-9e7b-2e00cace6a2e",
     "name": "Yogurt",
     "calories": 125,
     "image": "https://i.imgur.com/URhdrAm.png",
-    "servings": 1
+    "servings": 1,
+    "directions": [
+      "Mix all ingredients in small bowl. DO AHEAD: Can be made 8 hours ahead. Cover; chill.",
+      "A thick yogurt; sold at some supermarkets and at specialty foods stores (such as Trader Joe's and Whole Foods markets) and Greek markets. If unavailable, place 1 quart regular plain yogurt in cheesecloth-lined strainer set over large bowl. Cover and chill overnight to drain.",
+      "** A flavoring extract; available in the liquor aisle or baking section of some supermarkets and at liquor stores and Middle Eastern markets."
+    ]
   }
 ]

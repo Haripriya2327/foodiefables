@@ -1,6 +1,7 @@
 import recipes from '../data/recipe.json'
 import { useParams } from 'react-router-dom'
 import { Link} from 'react-router-dom';
+import './itemDetails.css'
 
 function ItemDetails() {
 
@@ -15,6 +16,10 @@ let recipeObj = recipeSelected[0];
     <img className="recipe-image" src={recipeObj.image} alt={recipeObj.name} />
     <div className="recipe-details">
        <h2>{recipeObj.name}</h2>
+       <div><ul>
+        {recipeObj.directions.map((step)=>{
+           return <li>{step}</li>
+        })}</ul></div>
        <p>Calories: {recipeObj.calories}</p>
        <p>Servings: {recipeObj.servings}</p>
        {recipeObj.calories < 300 ? <p>Healthier</p> : <p>High Caloric food</p>}
