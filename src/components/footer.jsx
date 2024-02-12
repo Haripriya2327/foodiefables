@@ -1,10 +1,9 @@
 function Footer() {
-    return(<>
+    return(
     <div className="footer">
     <a href="https://github.com/Haripriya2327/recipe-book">
-    Github</a>
+    Github Repo</a>
     </div>
-  </>
     )
 }
 

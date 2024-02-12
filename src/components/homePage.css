@@ -1,0 +1,53 @@
+/* list styling starts */
+.recipe-list {
+  width: 78vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow-y:scroll;
+  margin-left:1.5vw ;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.recipe-card {
+  margin: 2.5vh 2vw;
+  box-shadow: 2px 9px 5px grey;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  padding: 2vh 2vw;
+  background-color: #FFF6DC;
+  width: 18vw;
+}
+
+.recipe-card h2 {
+  text-align: center
+}
+
+.recipe-details {
+  min-width: 10vw;
+}
+
+.recipe-image-div {
+  position: relative;
+}
+
+.recipe-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  image-rendering: pixelated;
+  margin-top: 0.5vh;
+  margin-left: 0.5vw;
+}
+
+.cal-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0vh 1vw;
+}

@@ -27,20 +27,19 @@ function App() {
     updateRecipeList(newRecipeList);
     console.log(newRecipeList)
   }
-  return (
-    <>
-
+  return (<>
       <Navbar />
-      <Sidebar />
+      <div className='main'>
+       <Sidebar/>
       <Routes>
         <Route path="/" element={<HomePage callBackDelete={deleteRecipe} callBackAdd={addRecipe} recipeList={recipesToShow} />}></Route>
         <Route path="/itemDetails/:recipeId" element={<ItemDetails />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>
+      </div>
+     
       <Footer className='footer' />
-
-      {/* <HomePage  /> */}
     </>
   )
 

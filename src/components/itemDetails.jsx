@@ -17,8 +17,8 @@ let recipeObj = recipeSelected[0];
     <div className="recipe-details">
        <h2>{recipeObj.name}</h2>
        <div><ul>
-        {recipeObj.directions.map((step)=>{
-           return <li>{step}</li>
+        {recipeObj.directions.map((step,index)=>{
+           return <li id={index}>{step}</li>
         })}</ul></div>
        <p>Calories: {recipeObj.calories}</p>
        <p>Servings: {recipeObj.servings}</p>
