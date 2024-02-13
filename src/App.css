@@ -50,7 +50,7 @@ button {
 }
 
 .sideBanner {
-  width: 20vw;
+  width: 18vw;
   background: #FFC6AC;
   height: 100vh;
   overflow-y: hidden;
@@ -119,4 +119,10 @@ font-weight: bold;
   margin-top: 5px;
   margin-left: 10px;
 
+}
+.error-message{
+  color:rgb(61, 61, 228);
+  margin:10px;
+font-size: 25px;
+font-weight: bold;
 }

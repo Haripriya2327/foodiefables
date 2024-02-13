@@ -1,0 +1,26 @@
+.recipe-details-card {
+    margin: 2.5vh 2vw;
+    box-shadow: 2px 9px 5px grey;
+    border-radius: 5px;
+    position: relative;
+    justify-content: flex-start;
+    padding: 5vh 3vw;
+    background-color: #FFF6DC;
+    width: 80vw;
+    height: 70vh;
+}
+
+.recipe-steps {
+    display: flex;
+    flex-direction: row;
+}
+
+.recipe-details {
+    min-width: 10vw;
+}
+
+.backBtn {}
+
+.updateBtn {
+    margin-left: 1vw;
+}

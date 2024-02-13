@@ -6,7 +6,7 @@ function CreateRecipe(props) {
     const [name, setName] = useState("");
     const [calories, setCalories] = useState(0);
     const [servings, setServings] = useState(0);
-    const [image, setImage] = useState("https://dummyimage.com/182x268/ffffff/000000");
+    const [image, setImage] = useState("");
     const [recipe, setRecipe] = useState("");
 
     const handleSubmit = (e) => {
@@ -22,10 +22,9 @@ function CreateRecipe(props) {
             id: generateId(),
             name: name,
             calories: calories,
-            image: "https://i.imgur.com/DupGBz5.jpg",
+            image: "https://dummyimage.com/182x268/ffffff/000000",
             servings: servings
         }
-        console.log(newRecipeObj);
         //add new recipe 
         props.addRecipe(newRecipeObj);
         props.toggleCreateRecipe();
@@ -33,7 +32,7 @@ function CreateRecipe(props) {
         setName("");
         setCalories(0);
         setServings(0);
-        setImage("https://dummyimage.com/182x268/ffffff/000000");
+        setImage("");
         setRecipe("");
 
 
@@ -50,21 +49,22 @@ function CreateRecipe(props) {
             <div className="input">
                 <label>
                     Calories:
-                    <input type="number" name="calories" onChange={(e) => setCalories(e.target.value)} value={calories} placeholder="recipe calories" required />
+                    <input type="number" name="calories" onChange={(e) => setCalories(e.target.value)} value={calories} min={0} max={1500}
+                    placeholder="recipe calories" required />
                 </label>
             </div>
             <div className="input">
                 <label>
                     Servings:
-                    <input type="number" name="servings" onChange={(e) => setServings(e.target.value)} value={servings} placeholder="recipe servings" required />
+                    <input type="number" name="servings" min={0} max={100} onChange={(e) => setServings(e.target.value)} value={servings} placeholder="recipe servings" required />
                 </label>
             </div>
-            <div className="input">
+            {/* <div className="input">
                 <label>
                     Image:
-                    <input type="image" name="name" onChange={(e) => setImage(e.target.value)} src={image} required />
+                    <input type="image" name="name" onChange={(e) => setImage("https://dummyimage.com/182x268/ffffff/000000")}  required />
                 </label>
-            </div>
+            </div> */}
             <div className="input">
                 <label>
                     Recipe

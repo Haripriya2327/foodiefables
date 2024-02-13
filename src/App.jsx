@@ -1,4 +1,3 @@
-
 import './App.css'
 import HomePage from './components/homePage'
 import NotFound from './components/notFound'
@@ -25,14 +24,26 @@ function App() {
   function addRecipe(newRecipeObj) {
     const newRecipeList = [newRecipeObj, ...recipesToShow]
     updateRecipeList(newRecipeList);
-    console.log(newRecipeList)
+  }
+  function updateRecipe(recipeDtn,id) {
+const newRecipeList = recipesToShow.map((recipe)=>{
+  if(recipe.id==id){
+    recipe.directions = recipeDtn;
+    return recipe;
+  }
+  else{
+    return recipe;
+  }
+})
+    updateRecipeList(newRecipeList);
+
   }
   return (<>
       <Navbar />
       <div className='main'>
        <Sidebar/>
       <Routes>
-        <Route path="/" element={<HomePage callBackDelete={deleteRecipe} callBackAdd={addRecipe} recipeList={recipesToShow} />}></Route>
+        <Route path="/" element={<HomePage callBackDelete={deleteRecipe} callBackAdd={addRecipe} recipeList={recipesToShow} callbackupdate={updateRecipe} />}></Route>
         <Route path="/itemDetails/:recipeId" element={<ItemDetails />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="*" element={<NotFound />}></Route>

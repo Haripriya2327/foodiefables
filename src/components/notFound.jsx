@@ -2,7 +2,7 @@ import React from 'react'
 
 function NotFound() {
     return (
-        <div>
+        <div className='error-message'>
         ERROR! PAGE NOT FOUND
         </div>
     )
