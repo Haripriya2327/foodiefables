@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import { v4 as uuid4} from 'uuid';
+
 
 function CreateRecipe(props) {
     const recipes = props.recipeList;
     const [name, setName] = useState("");
     const [calories, setCalories] = useState(0);
     const [servings, setServings] = useState(0);
-    const [image, setImage] = useState("");
     const [recipe, setRecipe] = useState("");
 
     const handleSubmit = (e) => {
@@ -15,15 +14,13 @@ function CreateRecipe(props) {
         function generateId() {
             return  Math.floor(Math.random() * 1000)
         }
-
-        // const uniqueId = uuid4()
-    
         const newRecipeObj = {
             id: generateId(),
             name: name,
             calories: calories,
             image: "https://dummyimage.com/182x268/ffffff/000000",
-            servings: servings
+            servings: servings,
+            directions:[recipe]
         }
         //add new recipe 
         props.addRecipe(newRecipeObj);
@@ -34,8 +31,6 @@ function CreateRecipe(props) {
         setServings(0);
         setImage("");
         setRecipe("");
-
-
     }
 
     return (<>

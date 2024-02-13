@@ -43,8 +43,8 @@ const newRecipeList = recipesToShow.map((recipe)=>{
       <div className='main'>
        <Sidebar/>
       <Routes>
-        <Route path="/" element={<HomePage callBackDelete={deleteRecipe} callBackAdd={addRecipe} recipeList={recipesToShow} callbackupdate={updateRecipe} />}></Route>
-        <Route path="/itemDetails/:recipeId" element={<ItemDetails />}></Route>
+        <Route path="/" element={<HomePage callBackDelete={deleteRecipe} callBackAdd={addRecipe} recipeList={recipesToShow}  />}></Route>
+        <Route path="/itemDetails/:recipeId" element={<ItemDetails callBackUpdate={updateRecipe} recipeList={recipesToShow} />}></Route>
         <Route path="/about" element={<AboutPage />}></Route>
         <Route path="*" element={<NotFound />}></Route>
       </Routes>

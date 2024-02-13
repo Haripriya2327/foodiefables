@@ -12,7 +12,9 @@ a{
 img {
   background-size: cover;
 }
-
+li{
+  font-size: 1rem;
+}
 
 button {
   background-color: #C4C1A4;

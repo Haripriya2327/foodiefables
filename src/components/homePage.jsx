@@ -1,7 +1,4 @@
 import { useState } from 'react';
-import Footer from './footer'
-import Navbar from './navbar'
-import Sidebar from './sidebar'
 import List from './list';
 import CreateRecipe from './createRecipe';
 import './homePage.css'
@@ -23,7 +20,7 @@ function HomePage(props) {
                 <button className="createRecBtn" onClick={toggleCreateRecipe} ><img src='/src/assets/images/cooking.png' /><span>{createBtnName}</span>  </button>
             </div>
             {showCreateRecipe && <CreateRecipe recipeList= {props.recipeList} addRecipe={props.callBackAdd} toggleCreateRecipe={toggleCreateRecipe} />}
-            {!showCreateRecipe && <List callBackDelete={props.callBackDelete} recipeList= {props.recipeList} callbackupdate ={props.callbackupdate} />}
+            {!showCreateRecipe && <List callBackDelete={props.callBackDelete} recipeList= {props.recipeList}  />}
         
         </div>
     );

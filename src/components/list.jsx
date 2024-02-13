@@ -8,7 +8,7 @@ export default function List(props) {
    
     return (<>       
         <div className='recipe-list'>{props.recipeList.map((recipe) => {
-            return (<ListItem recipe={recipe} key={recipe.id} funcDel={props.callBackDelete} funcUpd={props.callbackupdate} />)
+            return (<ListItem recipe={recipe} key={recipe.id} funcDel={props.callBackDelete}  />)
         })}
         </div>
     </>)

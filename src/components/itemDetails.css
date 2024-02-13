@@ -6,8 +6,9 @@
     justify-content: flex-start;
     padding: 5vh 3vw;
     background-color: #FFF6DC;
+    padding-top: 20px;
     width: 80vw;
-    height: 70vh;
+    height: 72vh;
 }
 
 .recipe-steps {
@@ -19,8 +20,42 @@
     min-width: 10vw;
 }
 
-.backBtn {}
-
 .updateBtn {
     margin-left: 1vw;
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 120px;
+    height: 45px;
+    margin: 5px
+  }
+
+  .backBtn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .updateBtn:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .addStepsBtn:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+ 
+  .submitBtn:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .submitBtn {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  /* .button:hover {
+    background-color: #555;
+  } */

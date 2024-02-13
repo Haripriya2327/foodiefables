@@ -1,28 +1,47 @@
+import './aboutPage.css';
+
 function AboutPage() {
-    return (<section>
-
-<div>
-    <h1>Nice to meet you</h1>
-    <p>
-        We are Haripriya and Kosta, co-founders of FoodieFables. Our journey started when Louis (an IronHack teacher)
-        made us lab partners for a mini project, and the rest is history.
-    </p>
-    <h2>About Us</h2>
-    <h2>Meet the Team</h2>
-    <h3>Haripriya Mohanasundaram</h3>
-    <p><strong>Electrical engineer, IronHack Student, </strong></p>
-
-    <h3>Konstantinos Kallias</h3>
-    <p><strong>IronHack Student</strong></p>
-    
-</div>  
+    return (
+    <section className='aboutPage'>
+        <div>
+            <h1>Welcome to FoodieFables</h1>
+            <p>
+                Hey there! Welcome to FoodieFables, where delicious dishes and tech-savvy minds collide!
+                We are Haripriya and Kosta, two food enthusiasts who decided to blend our love for food 
+                with our passion for technology.
+            </p>
+        </div>
 
         <div>
+            <h2>About us</h2>
+            <p>Meet the masterminds behind FoodieFables:</p>
+            <div>
+                <h3>Haripriya Mohanasundaram</h3>
+                <p><strong>Lead Developer at FoodieFables</strong>
+                <br />
+                Originally from India, now living in the Netherlands. Haripriya was the lead developer for our second mini project,
+                bringing her expertise in front end and her passion for cooking to FoodieFables. Her dedication and leadership
+                have been instrumental in shaping our amazing culinary website (not biased).
+                </p>
+            </div>
+            
+            <div>
+                <h3>Konstantinos Kallias</h3>
+                <p><strong>Second mastermind behind FoodieFables</strong>
+                <br />
+                Originally from Greece, born and still based in the Netherlands, Kosta provided as an developer for our project. With his passion for technology and love for food,
+                he's been a key part of bringing life to FoodiFables.
+                </p>
+            </div>
+        </div>
+
+        <div>
+            <h3>Now lets talk about our mini project FoodieFables:</h3>
             <p>
-                Our mini project is a web application designed to showcase various food itemDetails
+                FoodieFables is a web application designed to showcase various food itemDetails
                 along with their names, pictures, whether its a high caloric unhealthy foodchoise option or a low caloric healthy one.
                 Users also have the ability to interect with the displayed food items in several ways such as:  
-
+                </p> 
                 <ul>
                     <li>
                         <strong>Viewing and Deleting:</strong> Users can browse through the list of displayed food items on the website. Additionally, they 
@@ -40,10 +59,10 @@ function AboutPage() {
                     <strong>Modifying Existing Food Items:</strong> Users also have the ability to tweak existing recipes and serving sizes of items already on the menu, adding their own twist to familiar dishes.
                   </li>
                 </ul>
-            </p>
+         
 
         </div>
-    </section>)
-}
+    </section> 
+   )}
 
 export default AboutPage
